@@ -1,0 +1,17 @@
+{
+  "name": "theme-check-cli",
+  "version": "1.0.0",
+  "description": "A high-performance WordPress theme auditor",
+  "bin": {
+    "wp-theme-check": "./src/cli.ts"
+  },
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
